@@ -1,3 +1,5 @@
+
+
 /* GENERAL */
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
@@ -7,6 +9,7 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
+
 
 /* BOTON VER MAS */
 button {
@@ -73,9 +76,9 @@ header p{
     margin-bottom: 20px;
 }
 
-/* MAIN */
+MAIN 
 
-main{
+ main{ 
     grid-area: principal;
     width: 85%;
     max-width: 1200px;
@@ -185,7 +188,7 @@ svg:hover circle{
 }
 
 
-/* CARROUSEL */
+/* CARROUSEL
 
 .carrousel{
     width: 100%;
@@ -199,7 +202,7 @@ svg:hover circle{
     width: 100%;
     margin-bottom: 20px;
     padding: 10px;
-}
+} */
 
 .verMas{
     display: inline-block;
