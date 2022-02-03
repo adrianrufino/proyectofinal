@@ -42,10 +42,33 @@
         <h2 class="tituloilu2">Iluminacion</h2>
         <p class="parrafoil">Nuestra exclusiva tecnologia Led te da el ahorro que estas buscando</p>
         <section>
-            <!-- Aqui va a ir el carrusel!!! -->
-            <img class="imagen1il" width="300 px" src="../imagenes/iluminacion1.png" alt="Carrusel 1">
-            <img class="imagen2il" width="300 px" src="../imagenes/iluminacion2.png" alt="Carrusel 2">
-        </section>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="../imagenes/iluminacion1.png" class="d-block w-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../imagenes/iluminacion2.png" class="d-block w-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
     </main>
     <footer>
         <div class="piePagina">
@@ -81,7 +104,7 @@
             </a>
         </div>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
 </body>
 </html>
