@@ -70,6 +70,20 @@ main a{
     text-align: center;
 }
 
+.bloqueER{
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(136, 132, 132);
+}
+
+.tituloERb{
+    transform: rotate (360deg);
+    animate__rubberBand
+
+}
+
 /* FOOTER */
 
 footer{
