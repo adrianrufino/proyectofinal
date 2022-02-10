@@ -45,15 +45,6 @@ svg circle {
   fill: white;
 }
 
-svg .youtubeIcono {
-  width: 100px;
-  height: 100px;
-}
-
-svg .youtubeIcono path {
-  fill: black;
-}
-
 svg .verMas {
   display: inline-block;
   width: 100%;
@@ -67,6 +58,15 @@ svg .verMas {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 15px;
+}
+
+.youtubeIcono {
+  width: 110px;
+  height: 110px;
+}
+
+.youtubeIcono path {
+  fill: black;
 }
 
 @media only screen and (min-width: 800px) {
