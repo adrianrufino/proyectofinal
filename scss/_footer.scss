@@ -1,0 +1,19 @@
+footer{
+    grid-area: pie;
+    text-align: center;
+    width: 100%;
+    background-color: $color-oscuro;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+    .piePagina{
+        width: 85%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+
+

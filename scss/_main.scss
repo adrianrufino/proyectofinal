@@ -1,0 +1,43 @@
+main{ 
+    grid-area: principal;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 50%;
+    min-height: 70vh;
+    text-align: center;
+
+    a{
+        color: $color-oscuro;
+        width: 100%;
+    }
+
+    .mainIluminacion{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .bloqueER{
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: $color-intermedio;
+    }
+
+    
+    // QUEDO EL BOTON DE YOUTUBE CHICO Y NO SE VE HASTA QUE PONES EL CURSO ENCIMA
+}
+
+@media only screen and (min-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
