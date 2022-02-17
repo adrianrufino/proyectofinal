@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+.youtubeIcono {
+  width: 110px;
+  height: 110px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,17 +29,17 @@ svg {
 }
 
 svg:hover {
-  background-color: white;
+  background-color: ligthen white, 20;
   padding: 10px;
   border-radius: 100%;
 }
 
 svg:hover path {
-  fill: black;
+  fill: white;
 }
 
 svg:hover circle {
-  fill: black;
+  fill: white;
 }
 
 svg path {
@@ -60,13 +65,22 @@ svg .verMas {
   margin-bottom: 15px;
 }
 
-.youtubeIcono {
-  width: 110px;
-  height: 110px;
-}
-
 .youtubeIcono path {
   fill: black;
+}
+
+.youtubeIcono:hover {
+  background-color: black;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.youtubeIcono:hover path {
+  fill: white;
+}
+
+.youtubeIcono:hover circle {
+  fill: white;
 }
 
 @media only screen and (min-width: 800px) {

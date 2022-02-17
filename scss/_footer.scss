@@ -2,7 +2,7 @@ footer{
     grid-area: pie;
     text-align: center;
     width: 100%;
-    background-color: $color-oscuro;
+    background-color: map-get($colores, oscuro);
     padding: 15px;
     display: flex;
     justify-content: center;

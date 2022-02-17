@@ -17,17 +17,18 @@ li{
 
 a{
     text-decoration: none;
-    color: $color-oscuro;
+    color: map-get($colores, oscuro);
 }
 
 .boton{
-    color: $color-claro;
-    background-color: $color-oscuro;
+    color: map-get($colores, claro);
+    background-color: map-get($colores, oscuro);
     border-radius: 10px;
     padding: 10px;
 }
 
-@media only screen and (min-width: 1200px) {
+@include mq(min,1200px) {
+
     .video1 {
         height: 500px;
     }

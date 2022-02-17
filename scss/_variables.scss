@@ -1,8 +1,45 @@
+// IMPORTACION DE LA FUENTE UBUNTU
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
-$color-primario: #fbbf02;
-// $margen-1: margin-bottom 10px;
-$color-secundario: purple;
-$color-claro: white;
-$color-oscuro: black;
-$color-intermedio: rgb(136, 132, 132);
+
+// DEFINICION DE LA VARIABLE FUENTE
 $fuente: 'Ubuntu', sans-serif;
+
+// DEFINICION DEL MAPA COLORES
+$colores: (
+primario: #fbbf02,
+secundario: purple,
+claro: white,
+oscuro: black,
+intermedio: rgb(136, 132, 132),
+hover-primario: ligthen (white, 20)
+ );
+
+//  DEFINICION DEL EXTEND MEDIDAS
+
+%medidas{
+    
+    width: 110px;
+    height: 110px;
+
+}
+
+// DEFINICION DEL MIXIN MEDIA QUERIES
+
+@mixin mq ($minMax, $pixels) {
+    @if $minMax==min {
+        @media only screen and (min-width: $pixels) {
+            @content
+        }
+    }
+    @else {
+        @media only screen and (max-width: $pixels) {
+            @content
+        }
+    }
+}
+
+;
+
+
+
+
