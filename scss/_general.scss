@@ -1,14 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $fuente;
 }
 
-
-.layoutGrilla{
+.layoutGrilla {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     grid-template-areas: "cabezal" "principal" "pie";
+}
+
+.fotito {
+    border-radius: 15px;
 }
